@@ -11,6 +11,6 @@ rdd=spark.sparkContext.parallelize([1,2,3,4,56])
 print("RDD count :"+str(rdd.count()))
 
 rdd = spark.sparkContext.emptyRDD
-print(unicode(rdd).encode('utf8'))
+print(unicode(your_object).encode('utf8'))
 rdd2 = spark.sparkContext.parallelize([])
-print(unicode(rdd2).encode('utf8'))
+print(rdd2)
